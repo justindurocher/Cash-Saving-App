@@ -1,0 +1,43 @@
+.cashSave:hover{
+    font-size: larger;
+    font-weight: bolder;
+    color: gold;
+}
+.quote{
+    text-align: center;
+    background-image: url(cashHeader1.jpg);
+    background-attachment: fixed;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+}
+.easyCashSaver{
+    text-align: center;
+    padding-top: 300px;
+    padding-bottom:300px;
+    background-color: antiquewhite;
+}
+.easyCashSaver:hover{
+    background-color: whitesmoke;
+}
+.accountingCalculator{
+    text-align: center;
+    padding-top: 300px;
+    padding-bottom:300px;
+    background-color: antiquewhite;
+    border-left: 2px solid darkgray;
+    border-right: 2px solid darkgray;
+}
+.accountingCalculator:hover{
+    background-color: whitesmoke;
+}
+.cashCalender{
+    text-align: center;
+    padding-top: 300px;
+    padding-bottom:300px;
+    background-color: antiquewhite;
+}
+.cashCalender:hover{
+    background-color: whitesmoke;
+}
