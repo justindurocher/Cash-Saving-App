@@ -12,7 +12,7 @@
 <body>
     <!--Nav Bar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand cashSave" href="#">Cash Save!</a>
+        <a class="navbar-brand cashSave" href="index.html">Cash Save!</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -41,7 +41,95 @@
             </div>
             </nav>
             <!--Main Body-->
-            
+            <div class="container daySave">
+            <div class="row">
+
+              <div class="col-lg-12 quote">
+
+              </div>
+
+          </div>
+            <div class="row">
+
+              <div class="col-md-2 date">Current Date</div>
+
+              <div class="col-md-10 time"></div>
+
+            </div>
+            <div class="row">
+
+              <div class="col-md-12 calc">Your Day by Day Money Income Calculator</div>
+
+            </div>
+            <div class="row Income">
+
+              <div class="col-md-3 incomeTag">Income</div>
+
+              <div class="col-md-9"></div>
+
+            </div>
+            <div class="row">
+
+              <div class="col-md-4">
+                Hours Work <input type="text" class="hoursWorked">
+              </div>
+              <div class="col-md-4">
+                Hourly Rate <input type="text" class="hourlyRate" placeholder="$">
+              </div>
+              <div class="col-md-4">
+                Tips (if collected) <input type="text" class="tips" placeholder="$">
+              </div>
+
+            </div>
+            <div class="row dailyExpenses">
+
+              <div class="col-md-3 expenseTag">Expenses</div>
+
+              <div class="col-md-9"></div>
+
+            </div>
+            <div class="row">
+
+              <div class="col-md-4 food">
+                Food Expenses <input type="text" class="foodExpense" placeholder="$">
+              </div>
+
+              <div class="col-md-4 bills">
+                Bills Paid <input type="text" class="billsPaid" placeholder="$">
+              </div>
+              <div class="col-md-4 other">
+                Other Expenses <input type="text" class="otherExpense" placeholder="$">
+              </div>
+            </div>
+              <div class="row">
+
+                <div class="col-md-10"></div>
+
+                <div class="col-md-2 submit">
+
+                  <button class="calcButton" type="submit">Calculate</button>
+
+                </div>
+
+              </div>
+              <div class="row">
+
+                <div class="col-md-4 results">Daily Income</div>
+
+                <div class="col-md-4 results">Yearly Income</div>
+
+                <div class="col-md-4 results">Portfolio Value</div>
+
+              </div>
+                <div class="row">
+
+                  <div class="col-md-4 results dailyIncome">$</div>
+
+                  <div class="col-md-4 results yearlyIncome">$</div>
+
+                  <div class="col-md-4 results portfolio">$</div>
+
+                </div>
                 <div class="row">
 
                     <div class="col-lg-12 mainWrap">
@@ -58,5 +146,6 @@
             <script src="assets/jquery-3.4.1.min.js"></script>
             <script src="assets/bootstrap-4.4.1.min.js"></script>
              <script src="assets/script.js"></script>
+             <script src="assets/dayByDay.js"></script>
 </body>
 </html>
