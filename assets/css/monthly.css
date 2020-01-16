@@ -69,3 +69,14 @@ body{
 }
 .time{
     text-align: right;
+}
+.accountCard{
+    background-color: whitesmoke;
+    border: 1px solid darkgray;
+}
+.accHeader{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
