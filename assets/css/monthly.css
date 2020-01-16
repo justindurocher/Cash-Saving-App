@@ -8,7 +8,7 @@ body{
 }
 .quote{
     text-align: center;
-    background-image: url(Images/cashHeader1.jpg);
+    background-image: url(../Images/cashHeader1.jpg);
     background-attachment: fixed;
     color: gold;
     padding-top: 15px;
@@ -20,7 +20,7 @@ body{
     -webkit-text-stroke-color: black;
 }
 .mainWrap{
-    background-image: url(Images/cashHeader1.jpg);
+    background-image: url(../Images/cashHeader1.jpg);
     background-attachment: fixed;
     color: white;
     padding-top: 15px;
@@ -69,61 +69,3 @@ body{
 }
 .time{
     text-align: right;
-}
-.calc{
-    text-align: center;
-    text-decoration: underline;
-    font-weight: bold;
-    font-size: 30px;
-}
-.incomeTag{
-    text-align: center;
-    font-weight: bold;
-    color: green;
-    padding-bottom: 15px;
-    padding-top: 25px;
-}
-.expenseTag{
-    text-align: center;
-    font-weight: bold;
-    color: red;
-    padding-bottom: 15px;
-    padding-top: 25px;
-}
-.calcButton{
-    margin-top: 35px;
-    margin-bottom: 15px;
-    background-color: aquamarine;
-    font-weight: bold;
-    border-color: black;
-}
-.submit{
-    text-align: left;
-}
-.results{
-    text-align: center;
-    font-weight: bold;
-    margin-bottom: 15px;
-}
-.positive{
-    border: 2px solid green;
-    color: green;
-    background-color: white;
-}
-.negative{
-    border: 2px solid red;
-    color: red;
-    background-color: white;
-}
-.dailyIncome{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-.yearlyIncome{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-.portfolio{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}

@@ -5,5 +5,13 @@ var randomQuote = quotes[Math.floor(Math.random()*quotes.length)];
 $(".quote").text(randomQuote);
     
 $(".easyCashSaver").click(function(){
+    
     window.location.href = "easyMoneySaver.html";
+
+});
+
+$(".accountingCalculator").click(function(){
+
+    window.location.href = "monthlyAccounting.html";
+
 });
