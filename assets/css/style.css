@@ -47,13 +47,13 @@ body{
 .accountingCalculator:hover{
     background-color: #ccffcc;
 }
-.cashCalender{
+.investingCorner{
     text-align: center;
     padding-top: 200px;
     padding-bottom:200px;
     background-color: antiquewhite;
 }
-.cashCalender:hover{
+.investingCorner:hover{
     background-color: #ccffcc;
 }
 .footer{

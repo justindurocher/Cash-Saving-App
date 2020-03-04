@@ -4,14 +4,26 @@ var randomQuote = quotes[Math.floor(Math.random()*quotes.length)];
 
 $(".quote").text(randomQuote);
     
-$(".easyCashSaver").click(function(){
+$(".easyCashSaver").click(function(e){
+
+    e.preventDefault();
     
-    window.location.href = "easyMoneySaver.html";
+    window.location.href = "views/easyMoneySaver.html";
 
 });
 
-$(".accountingCalculator").click(function(){
+$(".accountingCalculator").click(function(e){
 
-    window.location.href = "monthlyAccounting.html";
+    e.preventDefault();
+
+    window.location.href = "views/monthlyAccounting.html";
 
 });
+
+$(".investingCorner").click(function(e){
+
+    e.preventDefault();
+
+    window.location.href = "views/investingcorner.html";
+
+})

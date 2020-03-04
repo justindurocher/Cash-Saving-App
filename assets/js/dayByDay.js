@@ -1,6 +1,6 @@
 var date = new Date();
 
-var days = ["Mon","Tues","Weds","Thur","Fri","Sat","Sun"];
+var days = ["Monday","Tuesday","Wendsday","Thursday","Friday","Saturday","Sunday"];
 
 var day = date.getDay();
 
@@ -14,7 +14,17 @@ var time = date.getHours();
 
 var min = date.getMinutes();
 
-$(".time").text(time+":"+min);
+JSON.stringify(time);
+
+if (time>12){
+
+    $(".time").text((time-12)+" : "+min);
+
+} else {
+
+    $(".time").text(time + " : " + min);
+
+}
 
 if (day==1){
 
